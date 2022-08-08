@@ -1,0 +1,64 @@
+.welcome-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-heading {
+  color: #f0bb03;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .welcome-heading {
+    color: #f0bb03;
+    font-size: 40px;
+    font-family: 'Bree Serif';
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+  }
+}
+
+.paragraph {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  margin: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .paragraph {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Bree Serif';
+    margin: 10px;
+    text-align: center;
+  }
+}
+
+.subscribe-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 15px;
+  margin: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+@media screen and (minn-width: 768px) {
+  .subscribe-button {
+    font-size: 20px;
+  }
+}
